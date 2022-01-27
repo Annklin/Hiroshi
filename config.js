@@ -23,6 +23,7 @@ global.watermark = '© Haruno'
 
 global.multiplier = 59 // Semakin tinggi, semakin sulit naik level
 
+let fs = require('fs')
 let chalk = require('chalk')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
